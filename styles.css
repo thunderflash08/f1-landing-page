@@ -198,3 +198,60 @@ h1 {
   align-self: flex-end;
   margin-right: 50px;
 }
+
+/* Fourth Section */
+
+.fourth-section {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noty-box {
+  display: flex;
+  width: 60vw;
+  height: 20vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 15px;
+}
+
+.noty-text {
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.noty-text h3 {
+  font-size: 28px;
+}
+
+.noty-text p {
+  font-size: 18px;
+}
+
+.noty-signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: 3px solid #f9faf8;
+  border-radius: 10px;
+}
+
+/* last section/footer */
+
+footer {
+  width: 100vw;
+  height: 150px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #f9faf8;
+}
